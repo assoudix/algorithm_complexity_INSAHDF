@@ -19,16 +19,20 @@ def maximum_r(liste):
 
     if len(liste) == 0:
 
-        return 0
+        return None
+
+    if len(liste) == 1:
+
+        return liste[0]
 
     else:
 
-        max_rest = maximum_r(liste[1:])
+        """max_rest = maximum_r(liste[1:])
 
         if max_rest is None:
-            return liste[0]
+            return liste[0]"""
 
-        return max(liste[0], max_rest)
+        return max(liste[0], maximum_r(liste[1:]))
 
 
 if __name__== "__main__":
