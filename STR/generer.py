@@ -47,7 +47,7 @@ print("\nNombre d'occurences de 6: " + str(compt5))
 x = [1,2,3,4,5,6]
 y= [compt0, compt1, compt2, compt3, compt4, compt5]
 
-plt.hist(y, bins=6)
+plt.bar(x, y)
 
 plt.xlabel('Faces du dé')
 plt.ylabel('Nombre occurence')
