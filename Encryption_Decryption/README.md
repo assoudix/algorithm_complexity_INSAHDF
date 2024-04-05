@@ -1,15 +1,16 @@
 Contexte: Devoir efficacité des algorithmes - Pr. Kasmi - Fait Par: Omar Assoudi
 
-_________________
+--
 
 Utilisation:
+Installer les dépendances nécessaires
 
-> Installer les dépendances nécessaires
-> Executer les commandes suivantes sur le terminal:
+Executer les commandes suivantes sur le terminal:
+ 
 $ chmod +x *
 $ ./main.py
 
-__________________
+--
 
 Description:
 
@@ -28,3 +29,4 @@ Licence: MIT, vous êtes libres à réutiliser et redistribuer ce programme comm
 ______________________
 
 v1.1: option de sauvegarde ajoutée, mais ne marche pas à 100%
+Captures d'écran dans le dossier "Exemples"
