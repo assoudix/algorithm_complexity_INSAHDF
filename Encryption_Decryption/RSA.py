@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""similar to AES, I opted to use a pre-programmed version in Python"""
+
+
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 from Crypto.PublicKey import RSA

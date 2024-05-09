@@ -7,6 +7,7 @@ from Crypto.Cipher import PKCS1_OAEP
 import os
 from base64 import b64encode, b64decode
 
+''' I opted not to code AES, instead, I used the pre-existing version, hence the imports'''
 
 def generate_aes_key(key_length=16):
     # Generate random bytes
